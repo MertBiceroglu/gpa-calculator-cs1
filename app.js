@@ -19,20 +19,19 @@ const bhesaplaINK = document.querySelectorAll('button')[5];
 const bhesaplaKP = document.querySelectorAll('button')[6];
 const bhesaplaIB = document.querySelectorAll('button')[7];
 
+eventListeners();
 
-
-let iletisimBVize = parseInt(document.querySelectorAll('.vize')[7].value);
-let iletisimBFinal = parseInt(document.querySelectorAll('.final')[7].value);
-
-bhesaplaBTU.addEventListener('click',hesaplaBTU);
-bhesaplaAyrikMat.addEventListener('click',hesaplaAyrık);
-bhesaplaBBG.addEventListener('click',hesaplaBBG);
-bhesaplaMat.addEventListener('click',hesaplaMat);
-bhesaplaING.addEventListener('click',hesaplaIng);
-bhesaplaINK.addEventListener('click',hesaplaInk);
-bhesaplaKP.addEventListener('click',hesaplaKP);
-bhesaplaIB.addEventListener('click',hesaplaIB);
-hesapla.addEventListener('click',hesaplaSon);
+function eventListeners(){
+    bhesaplaBTU.addEventListener('click',hesaplaBTU);
+    bhesaplaAyrikMat.addEventListener('click',hesaplaAyrık);
+    bhesaplaBBG.addEventListener('click',hesaplaBBG);
+    bhesaplaMat.addEventListener('click',hesaplaMat);
+    bhesaplaING.addEventListener('click',hesaplaIng);
+    bhesaplaINK.addEventListener('click',hesaplaInk);
+    bhesaplaKP.addEventListener('click',hesaplaKP);
+    bhesaplaIB.addEventListener('click',hesaplaIB);
+    hesapla.addEventListener('click',hesaplaSon);
+}
 function hesaplaBBG(){
     let bbgVize = parseInt(document.querySelectorAll('.vize')[0].value);
     let bbgOdev = parseInt(document.querySelectorAll('.odev')[0].value);
@@ -147,7 +146,6 @@ function hesaplaIB(){
 
     return parseInt(iletisimB.value);
 }
-
 function hesaplaSon(){
 
     finalSonuc = 
