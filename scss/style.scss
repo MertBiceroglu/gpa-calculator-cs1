@@ -1,0 +1,55 @@
+@import "config";
+
+body {
+  background-color: $darkcolor;
+  color: $lightcolor;
+}
+
+header {
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: $lightcolor;
+    border-bottom: 1px solid $lightcolor;
+    padding-bottom: 25px;
+  }
+}
+
+.main {
+  width: 80%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  & button {
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 900;
+    background: #222;
+    color: blanchedalmond;
+  }
+
+  & .ders {
+    margin-bottom: 1rem;
+    @include flex;
+  }
+  & .label {
+    width: 300px;
+  }
+  & .defaultInput {
+    font-size: 1rem;
+    text-align: center;
+    width: 70px;
+  }
+  & .result {
+    background: blanchedalmond;
+    color: black;
+    width: 80%;
+    margin-top: 150px;
+    height: 80px;
+    margin-left: auto;
+    @include flex;
+  }
+}

@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #272727;
+  color: #eee;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #eee;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 25px;
+}
+
+.main {
+  width: 80%;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main button {
+  width: 100px;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 900;
+  background: #222;
+  color: blanchedalmond;
+}
+
+.main .ders {
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .label {
+  width: 300px;
+}
+
+.main .defaultInput {
+  font-size: 1rem;
+  text-align: center;
+  width: 70px;
+}
+
+.main .result {
+  background: blanchedalmond;
+  color: black;
+  width: 80%;
+  margin-top: 150px;
+  height: 80px;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
