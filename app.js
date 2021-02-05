@@ -149,14 +149,14 @@ function hesaplaIB(){
 function hesaplaSon(){
 
     finalSonuc = 
-    ((hesaplaBBG()*3+
-     hesaplaAyrık()*4+
-     hesaplaMat()*4+
-     hesaplaBTU()*3+
+    ((hesaplaBBG()*6+
+     hesaplaAyrık()*6+
+     hesaplaMat()*6+
+     hesaplaBTU()*4+
      hesaplaIB()*2+
      hesaplaIng()*2+
      hesaplaInk()*2+
-     hesaplaKP()*1) / 21)/100*4;
+     hesaplaKP()*2) / 30)/100*4;
 
     sonuc.textContent = "Sonucunuz : " + finalSonuc;
 }
